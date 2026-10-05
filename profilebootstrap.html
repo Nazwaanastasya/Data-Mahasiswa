@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Nazwa Anastasya</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 2rem 0;
+        }
+        .card {
+            border: none;
+            border-radius: 20px;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+        .header-section {
+            background: linear-gradient(135deg, #2c3e50, #4a6fa5);
+            color: white;
+            padding: 2.5rem;
+        }
+        .foto-profil {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border: 5px solid white;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        .section-title {
+            color: #2c3e50;
+            border-bottom: 3px solid #4a6fa5;
+            padding-bottom: 0.5rem;
+            margin: 2rem 0 1rem;
+        }
+        .info-row {
+            padding: 0.5rem 0;
+            border-bottom: 1px dashed #dee2e6;
+        }
+        .label {
+            font-weight: bold;
+            color: #4a6fa5;
+            display: inline-block;
+            min-width: 120px;
+        }
+        .portofolio-item {
+            background: #f8f9fa;
+            padding: 1.25rem;
+            border-radius: 0.75rem;
+            border-left: 5px solid #4a6fa5;
+            margin-bottom: 1rem;
+            transition: transform 0.2s ease;
+        }
+        .portofolio-item:hover {
+            transform: translateX(5px);
+        }
+        .quote {
+            color: white;
+            font-style: italic;
+            font-size: 1.1rem;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="card">
+            <!-- Bagian Atas: Foto & Nama -->
+            <div class="header-section text-center">
+                <img src="images/foto profile2.jpeg" alt="Foto Profil" class="foto-profil rounded-circle mb-3">
+                <h1 class="mb-1">Nazwa Anastasya</h1>
+                <p class="lead opacity-75 mb-0">Mahasiswa</p>
+            </div>
+
+            <div class="card-body p-4 p-md-5">
+                <!-- Informasi Pribadi -->
+                <h2 class="section-title">📋 Informasi Pribadi</h2>
+                <div class="info-row">
+                    <span class="label">Nama</span>: Nazwa Anastasya
+                </div>
+                <div class="info-row">
+                    <span class="label">Alamat</span>: Pringgarata, Lombok Tengah, Nusa Tenggara Barat
+                </div>
+                <div class="info-row">
+                    <span class="label">No. HP</span>: +62 878-1490-5974
+                </div>
+                <div class="info-row">
+                    <span class="label">Email</span>: nazwaanastasya42@gmail.com
+                </div>
+
+                <!-- Riwayat Pendidikan -->
+                <h2 class="section-title">🎓 Riwayat Pendidikan</h2>
+                <ul class="ps-3">
+                    <li class="py-1"><strong>2025 – Sekarang:</strong> Universitas Qamarul Huda Badaruddin</li>
+                    <li class="py-1"><strong>2022 – 2025:</strong> Sekolah Menengah Kejuruan</li>
+                    <li class="py-1"><strong>2019 – 2022:</strong> Sekolah Menengah Pertama</li>
+                    <li class="py-1"><strong>2013 – 2019:</strong> Sekolah Dasar</li>
+                </ul>
+
+                <!-- Prestasi -->
+                <h2 class="section-title">🏆 Prestasi</h2>
+                <ul class="ps-3">
+                    <li class="py-1">Peserta Aktif Kompetisi Sains Indonesia – Tahun 2023</li>
+                    <li class="py-1">Peringkat 3 di Kelas – Tahun 2024</li>
+                    <li class="py-1">Peringkat 3 di Kelas – Tahun 2025</li>
+                </ul>
+
+                <!-- Portofolio -->
+                <h2 class="section-title">💼 Portofolio</h2>
+                <div class="portofolio-item">
+                    <h5 class="text-dark mb-2">Proyek 1: Desain Grafis</h5>
+                    <p class="text-muted mb-0">Membuat berbagai desain visual seperti logo, banner, spanduk, dan desain sablon baju menggunakan perangkat lunak desain seperti CorelDRAW.</p>
+                </div>
+                <div class="portofolio-item">
+                    <h5 class="text-dark mb-2">Proyek 2: Pengalaman PKL</h5>
+                    <p class="text-muted mb-0">Berpengalaman praktik kerja di bidang percetakan. Terlibat dalam proses desain dan produksi cetak berbagai media visual — poster, banner, spanduk, stiker, baliho — serta belajar mengoperasikan mesin cetak industri.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Kata Mutiara -->
+        <div class="text-center mt-4 quote">
+            <p class="mb-0">"Belajar adalah cara terbaik untuk tumbuh"</p>
+        </div>
+    </div>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
